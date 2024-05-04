@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Jua';
+    color:aliceblue;
 }
 
 a {
@@ -12,19 +13,23 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: beige;
+    background-color: rgb(100, 100, 89);
     padding: 8px 12px;
 }
 
 .navbar__logo {
-    font-size: 24px;
-    color: violet;
+    font-size: 30px;
+    color: rgba(142, 238, 255, 0.555);
+    padding-left:35px;
+    color:aliceblue;
 }
 
 .navbar__menu {
     display: flex;
     list-style: none;
     padding-left: 0;
+    font-size: 33px;
+    color:aliceblue;
 }
 
 .navbar__menu li {
@@ -52,7 +57,18 @@ a {
     right: 32px;
     font-size: 24px;
 }
-
+.color_W{
+    color: white
+}
+a{
+    color: red;
+}
+.navbar__logo a{
+    color: yellow;
+}
+li a{
+    color:aliceblue;
+}
 @media screen and (max-width: 600px) {
     .navbar {
         flex-direction: column;
